@@ -3,8 +3,6 @@
 A new education app.
 
 ## Technique
-- ### Frontend
-    - [React](http://reactjs.org/docs/)
 - ### Backend
     - [Spring boot](https://spring.io/)
 - ### Database
