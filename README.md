@@ -2,6 +2,33 @@
 
 A new education app.
 
+## Technique
+- ### Frontend
+    - [React](http://reactjs.org/docs/)
+- ### Backend
+    - [Spring boot](https://spring.io/)
+- ### Database
+    - [Postgresql](https://www.postgresql.org/)
+- ### Others
+    - [Liquibase](https://docs.liquibase.com/home.html)
+    - [Docker (in processing)](https://docs.docker.com/)
+
+## To run project
+### Database
+Create a database name `MiniSocial` (preferably), I'll use Liquibase to mirrage column and root data.
+### Backend
+Import project as maven
+Add `application-local.properties` to `src/main/resources` to config database.
+```
+minisocial.database.host=localhost
+minisocial.database.name=e-teach
+spring.datasource.username=<Your database name>
+spring.datasource.password=<Your database password>
+```
+### Docker
+Writing...
+
+
 ## Contact
 
 <table width="100%"> 
