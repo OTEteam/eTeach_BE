@@ -1,0 +1,15 @@
+name: 'Auto Assign Reviewers'
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - ready_for_review
+      - opened
+      - reopened
+
+jobs:
+  add-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kentaro-m/auto-assign-action@v1.1.2
