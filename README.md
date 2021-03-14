@@ -3,6 +3,10 @@
 A new education app.
 
 ## Technique
+- ### FrontEnd
+    - [Dart](https://dart.dev/)
+    - [Kotlin](https://kotlinlang.org/)
+    - [Swift](https://swift.org/)
 - ### Backend
     - [Spring boot](https://spring.io/)
 - ### Database
