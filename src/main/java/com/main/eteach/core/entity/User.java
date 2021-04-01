@@ -2,17 +2,16 @@ package com.main.eteach.core.entity;
 
 import javax.persistence.*;
 import java.util.HashSet;
-import java.util.Set;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import java.util.Set;
 
 @Entity
-@Table(name = "user_account", uniqueConstraints = {
+@Table(name = "user", uniqueConstraints = {
         @UniqueConstraint(columnNames = {"username"}),
         @UniqueConstraint(columnNames = {"email"})
 })
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

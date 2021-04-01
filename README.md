@@ -3,6 +3,11 @@
 A new education app.
 
 ## Technique
+- ### FrontEnd
+    - [React](https://reactjs.org/)
+    - [Dart](https://dart.dev/)
+    - [Kotlin](https://kotlinlang.org/)
+    - [Swift](https://swift.org/)
 - ### Backend
     - [Spring boot](https://spring.io/)
 - ### Database
