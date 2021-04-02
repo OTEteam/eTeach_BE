@@ -21,7 +21,7 @@ A new education app.
 #### Create your application properties file:
 
 ```bash
-cp application_example.properties src/main/resources/application.properties
+cp application_example.properties src/main/java/com/main/resources/application.properties
 ```
 
 ### Database
