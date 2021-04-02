@@ -23,6 +23,7 @@ A new education app.
 ```bash
 cp application_example.properties src/main/java/com/main/resources/application.properties
 ```
+edit FIXME in src/main/java/com/main/resources/application.properties
 
 ### Database
 Create a database name `MiniSocial` (preferably), I'll use Liquibase to mirrage column and root data.
