@@ -34,4 +34,4 @@ build/
 ### Properties ###
 application-local.properties
 
-src/main/resources/application.properties
+src/main/java/com/main/resources/application.properties
