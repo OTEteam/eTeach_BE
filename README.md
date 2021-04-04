@@ -17,6 +17,14 @@ A new education app.
     - [Docker (in processing)](https://docs.docker.com/)
 
 ## To run project
+
+#### Create your application properties file:
+
+```bash
+cp application_example.properties src/main/java/com/main/resources/application.properties
+```
+edit FIXME in src/main/java/com/main/resources/application.properties
+
 ### Database
 Create a database name `MiniSocial` (preferably), I'll use Liquibase to mirrage column and root data.
 ### Backend
